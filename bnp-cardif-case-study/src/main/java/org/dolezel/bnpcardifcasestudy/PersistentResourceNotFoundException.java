@@ -14,7 +14,6 @@ public class PersistentResourceNotFoundException extends RuntimeException {
      * Create exception with info of id or search parameters and table which failed to return results
      *
      * @param errorMessage
-     * @param err
      * @param searchCriteria - id of a resource
      * @param type           - entity/table
      */

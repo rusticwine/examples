@@ -12,8 +12,8 @@ import java.time.LocalDate;
 @Builder
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
+@Getter
 @Setter(value = AccessLevel.PACKAGE)
-@Data
 public class Subscription extends BaseEntity {
 
     @OneToOne

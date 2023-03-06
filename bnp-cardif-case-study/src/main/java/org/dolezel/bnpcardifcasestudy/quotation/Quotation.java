@@ -2,7 +2,6 @@ package org.dolezel.bnpcardifcasestudy.quotation;
 
 
 import jakarta.persistence.Entity;
-import jakarta.persistence.FetchType;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import lombok.*;
@@ -16,8 +15,8 @@ import java.time.LocalDate;
 @Builder
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
+@Getter
 @Setter(value = AccessLevel.PACKAGE)
-@Data
 public class Quotation extends BaseEntity {
 
 

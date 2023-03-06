@@ -6,9 +6,8 @@ import org.dolezel.bnpcardifcasestudy.quotation.Quotation;
 import org.dolezel.bnpcardifcasestudy.quotation.QuotationRequest;
 import org.dolezel.bnpcardifcasestudy.subscription.Subscription;
 import org.dolezel.bnpcardifcasestudy.subscription.SubscriptionRequest;
-import org.mapstruct.*;
-
-import java.util.List;
+import org.mapstruct.Mapper;
+import org.mapstruct.MappingTarget;
 
 @Mapper(componentModel = "spring")
 public interface RequestEntityMappers {

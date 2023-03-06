@@ -32,12 +32,7 @@ public class ControllerExceptionHandler {
     }
 
 
-    /**
-     * common code for more exceptions being thrown by constraint validation
-     *
-     * @param ex
-     * @return
-     */
+    //Common code for more exceptions being thrown by constraint validation
     private ProblemDetail handleFailedValidation(Exception ex) {
         var pd = ProblemDetail.forStatus(HttpStatusCode.valueOf(406));
         pd.setDetail(ex.getMessage());
